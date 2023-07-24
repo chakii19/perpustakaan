@@ -16,5 +16,17 @@
                 <a class="nav-link" href="/anggota">Data Anggota</a>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link" href="/petugas">Data Petugas</a>
+            </li>
+
             
+            <li class="nav-item">
+                <a class="nav-link" href="/pinjam">Data Peminjaman</a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/logout">Logout</a>
+            </li>
             
