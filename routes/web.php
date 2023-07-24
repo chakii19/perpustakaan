@@ -18,16 +18,16 @@ Route::get('/', function () {
 });
 
 //Route untuk Data Buku 
-Route:get('/buku', 'BukuController@bukutampil');
+Route::get('/buku', 'BukuController@bukutampil');
 
 //Route untuk Data Buku
-Route:get('/home', function(){return view ('view_home');});
+Route::get('/home', function(){return view ('view_home');});
 
 //Route untuk Data Buku 
-Route:get('/anggota', 'AnggotaController@anggotatampil');
+Route::get('/anggota', 'AnggotaController@anggotatampil');
 
 //Route untuk Data Buku 
-Route:get('/petugas', 'PetugasController@petugastampil');
+Route::get('/petugas', 'PetugasController@petugastampil');
 
 //Route untuk Data Buku 
-Route:get('/pinjam', 'PinjamController@pinjamtampil');
+Route::get('/pinjam', 'PinjamController@pinjamtampil');
