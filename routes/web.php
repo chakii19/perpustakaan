@@ -14,5 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+//Route untuk Data Buku 
+Route:get('/buku', 'BukuController@bukutampil');
+
+//Route untuk Data Buku
+Route:get('/home', function(){return view ('view_home');});
+
+//Route untuk Data Buku 
+Route:get('/anggota', 'AnggotaController@anggotatampil');
+
+//Route untuk Data Buku 
+Route:get('/petugas', 'PetugasController@petugastampil');
+
+//Route untuk Data Buku 
+Route:get('/pinjam', 'PinjamController@pinjamtampil');
