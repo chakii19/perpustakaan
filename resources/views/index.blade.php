@@ -11,8 +11,19 @@
     <script type="text/javascript" src="{{ asset('assets') }}/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="{{ asset('assets') }}/js/bootstrap.js"></script>
     <script src="https://ajax.googleapis.com/ajax/iblis/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
+
 <body>
-    
+    <div class="container" style="background:#acc">
+      <div class="alert alert-info text-center">
+        <h4 style="margin-buttom: 0px"><b>Selamat datang</b> di Perpustakaan USM</h4>
+    </div>
+        @include('menu')
+        @include('banner')
+        @include('sidebar')
+        @include('konten')
+        @include('footer')
+    </div>       
 </body>
 </html>
