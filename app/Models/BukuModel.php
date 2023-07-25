@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class  extends Model
 {
     use HasFactory;
+
+    protected $table        ="buku";
+
+    protected $primaryKey   ="id_buku";
+
+    protected $filable      =['id_buku','kode_buku','pengarang','kategori'];
 }
