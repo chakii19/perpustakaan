@@ -1,22 +1,21 @@
 <p>
     <!--awal FOOTER-->
-    <div class="col-md-12">
-        <div class="row" style="background:rgba(63, 67, 102, 0.562)">
+    <div class="col-md">
+        <div class="row" style="background:rgba(60, 62, 80, 0.562)">
             <div class="col-md-9">
                 <h3>Visi</h3>
                 <p>Mengambangkan Budaya Membaca
 
                 <p>
                 <h3>Misi</h3>
-                <ul>
-                    <li>Siap Melayani Anggota</li>
-                    <li>Menciptakan Suasana Baca Yang Nyaman</li>
-                </ul>                     
+                <p>Siap Melayani Anggota
+                <p>Menciptakan Suasana Baca Yang Nyaman
+                  
             </div>
             <div class="col-md-3">
-                Copyright &copy; 2017. All right reserve
+                Copyright &copy; 2023. All right reserve
                 <p>
-                Developed by The Letter</div>
+                Developed by Arif Muhammad Daffa</div>
         </div>
     </div>
     <!--akhir FOOTER-->

@@ -1,3 +1,3 @@
-<div class="col-md-12">
-    <img src="{{ asset ('gambar') }}/perpustakaan.jpeg" width="100%" height="280px">
+<div class="col-md-20">
+    <img src="{{ asset ('gambar') }}/Univ.jpg" width="100%" height="500px">
 </div>

@@ -1,6 +1,6 @@
 <p>
     <div class="col-md-12">
-        <div class="row" style="background:#acc">
-            <div class="col-md-3">
-                <img src="{{ asset('gambar') }}/univ.jpg" width="100%" height="100%">
+        <div class="row" style="background:rgb(175, 211, 245)">
+            <div class="col-md-50">
+             
             </div>
