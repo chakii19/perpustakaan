@@ -1,3 +1,4 @@
+view_pinjam.blade.php
 @extends('index')
 @section('title', 'Peminjaman')
 
