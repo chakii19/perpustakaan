@@ -14,7 +14,7 @@ class BukuController extends Controller
     public function bukutampil()
     {
         $databuku = BukuModel::orderby('kode_buku', 'ASC')
-        ->paginate(5);
+       ->paginate(5);
 
         return view('halaman/view_buku',['buku'=>$databuku]);
     }
@@ -67,6 +67,6 @@ class BukuController extends Controller
         $id_buku->save();
 
         return redirect()->back();
-        
+
     }
 }
