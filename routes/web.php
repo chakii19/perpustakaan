@@ -19,6 +19,10 @@ Route::get('/', function () {
 
 //Route untuk Data Buku 
 Route::get('/buku', 'BukuController@bukutampil');
+Route::post('/buku/tambah', 'BukuController@bukutambah');
+Route::get('/buku/hapus/{id_buku}', 'BukuController@bukuhapus');
+Route::put('/buku/edit/{id_buku}', 'BukuController@bukuedit');
+
 
 //Route untuk Data Buku
 Route::get('/home', function(){return view ('view_home');});
