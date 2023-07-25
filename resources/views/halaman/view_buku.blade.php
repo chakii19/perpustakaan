@@ -1,3 +1,4 @@
+view_buku.blade.php
 @extends('index')
 @section('title', 'Buku')
 
