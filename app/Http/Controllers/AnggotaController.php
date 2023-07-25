@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-//panggil model BukuModel
+//panggil model AnggotaModel
 use App\Models\AnggotaModel;
 
 class AnggotaController extends Controller
@@ -12,9 +12,7 @@ class AnggotaController extends Controller
     //method untuk tampil data anggota
     public function anggotatampil()
     {
-        $dataanggota = AnggotaModel::orderby('id_anggota', 'ASC')
-        ->paginate(5);
-
+       $dataanggota = AnggotaModel::orderby('id_anggota', 'ASC')->paginate(5);
         return view('halaman/view_anggota',['anggota'=>$dataanggota]);
     }
 
